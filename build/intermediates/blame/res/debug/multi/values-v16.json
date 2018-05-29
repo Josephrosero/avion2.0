@@ -1,0 +1,47 @@
+[
+    {
+        "outputFile": "C:\\Users\\ASUS\\Desktop\\prueba sdk\\avion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "C:\\Users\\ASUS\\.android\\build-cache\\f7b20345794223b9d9fe9624150058d5e6e7e9a4\\output\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 289
+                },
+                "from": {
+                    "file": "C:\\Users\\ASUS\\.android\\build-cache\\074bc1564891c8fa93c57f4e1af602ebb0be7d95\\output\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 223
+                    }
+                }
+            }
+        ]
+    }
+]

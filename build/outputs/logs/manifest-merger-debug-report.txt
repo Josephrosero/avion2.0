@@ -1,0 +1,201 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:2:1-87:12
+	package
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:7:5-30
+		INJECTED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:6:5-28
+		INJECTED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:5:5-45
+uses-sdk
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:9:5-11:41
+MERGED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ASUS\.android\build-cache\074bc1564891c8fa93c57f4e1af602ebb0be7d95\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ASUS\.android\build-cache\20be103f42ec5e874b83ca36d462f033845be9dc\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ASUS\.android\build-cache\7b55e35ac5759876c1839c629c2e3df9dcd9aecf\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ASUS\.android\build-cache\eace45fce3e8bbe7c6d687b9691e6043405b7b36\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ASUS\.android\build-cache\23ec7d64941e0f77f48e4564bf10332129824c19\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ASUS\.android\build-cache\294f15b2ab849d9be7715c69ad4ca9b28e88ccda\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ASUS\.android\build-cache\9482d869b70bb2f38008e97b1a65a847941599ac\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ASUS\.android\build-cache\70ae02f9e0cf4a196ee57e6f6f98198e6ee49464\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ASUS\.android\build-cache\96edb94d07aacbea8375062e4433d8bb42f6ab5a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ASUS\.android\build-cache\f7b20345794223b9d9fe9624150058d5e6e7e9a4\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ASUS\.android\build-cache\010aa3e33705825017b549f7c53c28c50a040804\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\ASUS\.android\build-cache\a7835201fd72d12bce62e9b9f486ca506e6c5363\output\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:11:9-38
+		INJECTED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:10:9-35
+supports-screens
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:13:5-18:40
+	android:largeScreens
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:15:9-36
+	android:smallScreens
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:17:9-36
+	android:normalScreens
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:16:9-37
+	android:xlargeScreens
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:18:9-37
+	android:anyDensity
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:14:9-34
+uses-feature#0x00020000
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:20:5-54
+	android:glEsVersion
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:20:19-51
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:22:5-67
+MERGED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:23:5-65
+MERGED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:23:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:25:5-27:36
+MERGED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:12:5-60
+	android:required
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:27:9-33
+		MERGED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:29:9-57
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:32:9-53
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:35:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:38:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:40:5-42:36
+	android:required
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:41:9-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:44:5-81
+MERGED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:44:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:45:5-75
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:45:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:46:5-80
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:46:22-77
+application
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:48:5-85:19
+MERGED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\ASUS\.android\build-cache\a7835201fd72d12bce62e9b9f486ca506e6c5363\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:52:9-41
+	android:debuggable
+		ADDED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:19:18-44
+	android:icon
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:50:9-42
+	android:banner
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:49:9-46
+	android:theme
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:53:9-50
+	android:isGame
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:51:9-30
+activity#com.Company.avion.UnityPlayerActivity
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:54:9-69:20
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:59:13-51
+	android:label
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:57:13-45
+	android:launchMode
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:58:13-44
+	android:configChanges
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:56:13-194
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:55:13-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:60:13-64:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:63:17-77
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:63:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:66:13-68:40
+	android:value
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:68:17-37
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:67:17-57
+meta-data#unity.build-id
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:71:9-73:68
+	android:value
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:73:13-65
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:72:13-42
+meta-data#unity.splash-mode
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:74:9-76:33
+	android:value
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:76:13-30
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:75:13-45
+meta-data#unity.splash-enable
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:77:9-79:36
+	android:value
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:79:13-33
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:78:13-47
+meta-data#android.max_aspect
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:80:9-82:35
+	android:value
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:82:13-32
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:81:13-46
+activity#com.Company.avion.MainActivity
+ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:84:9-59
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\prueba sdk\avion\src\main\AndroidManifest.xml:84:19-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:16:22-76
+uses-library#com.osterhoutgroup.api.ext
+ADDED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:22:9-24:40
+	android:required
+		ADDED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [:VuforiaWrapper:] C:\Users\ASUS\.android\build-cache\0665f0c57b59148bf576676dbd362b30a4fd0aa6\output\AndroidManifest.xml:23:13-54
