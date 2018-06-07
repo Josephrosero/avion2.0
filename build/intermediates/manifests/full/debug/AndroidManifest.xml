@@ -6,8 +6,15 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="24"
         android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name=" android.permission.ACCESS_NETWORK_STATE " />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <supports-screens
         android:anyDensity="true"
@@ -16,11 +23,9 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
-    <uses-feature android:glEsVersion="0x00020000" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA" />
-
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
@@ -45,12 +50,19 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:banner="@drawable/app_banner"
-        android:debuggable="false"
+        android:debuggable="true"
         android:icon="@drawable/app_icon"
         android:isGame="true"
         android:label="@string/app_name"
+        android:testOnly="true"
         android:theme="@style/UnityThemeSelector" >
         <activity
             android:name="com.Company.avion.UnityPlayerActivity"
@@ -58,12 +70,6 @@
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="fullSensor" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
@@ -82,11 +88,33 @@
             android:name="android.max_aspect"
             android:value="2.1" />
 
-        <activity android:name="com.Company.avion.MainActivity" />
+        <activity
+            android:name="com.Company.avion.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Company.avion.Geolocalizacion_MapBox" >
+        </activity>
         <!-- To support the ODG R7 in stereo mode we must add the following library. -->
         <uses-library
             android:name="com.osterhoutgroup.api.ext"
             android:required="false" />
+
+        <activity android:name="com.mapbox.services.android.navigation.ui.v5.NavigationActivity" />
+
+        <service android:name="com.mapbox.services.android.navigation.v5.navigation.NavigationService" /> <!-- Include the telemetry service to simplify set up (https://www.mapbox.com/telemetry) -->
+        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
+        <service android:name="com.mapbox.android.telemetry.TelemetryService" />
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.Company.avion.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

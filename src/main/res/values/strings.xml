@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">avion</string>
+    <string name="textobotton">unity prueba</string>
+    <string name="access_token" translatable="false">pk.eyJ1Ijoiam9zZXBocm9zZXJvIiwiYSI6ImNqaDczODB4MDAwZDgyd285aXBxYTQzeXYifQ.Daooial_Z66yi1ZD8Jr42A</string>
+
 </resources>
